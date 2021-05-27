@@ -1,9 +1,6 @@
 #!/bin/bash
-
 VERSION=1.0
-
 # printing greetings
-
 echo "MoneroOcean mining setup script v$VERSION."
 echo "(please report issues to sup@moner.stream email with full output of this script with extra \"-x\" \"bash\" option)"
 echo
