@@ -298,7 +298,7 @@ EOL
 fi
 
 echo ""
-echo "NOTE: If you are using shared VPS it is recommended to avoid 75% CPU usage produced by the miner or you will be banned"
+echo "NOTE: If you are using shared VPS it is recommended to avoid 100% CPU usage produced by the miner or you will be banned"
 if [ "$CPU_THREADS" -lt "3" ]; then
   echo "HINT: Please execute these or similair commands under root to limit miner to 75% percent CPU usage:"
   echo "sudo apt-get update; sudo apt-get install -y cpulimit"
@@ -316,4 +316,3 @@ fi
 echo ""
 
 echo "[*] Setup complete"
-
