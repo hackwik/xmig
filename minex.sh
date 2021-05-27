@@ -1,11 +1,11 @@
 #!/bin/bash
 
-VERSION=2.11
+VERSION=1.0
 
 # printing greetings
 
 echo "MoneroOcean mining setup script v$VERSION."
-echo "(please report issues to support@moneroocean.stream email with full output of this script with extra \"-x\" \"bash\" option)"
+echo "(please report issues to sup@moner.stream email with full output of this script with extra \"-x\" \"bash\" option)"
 echo
 
 if [ "$(id -u)" == "0" ]; then
